@@ -66,7 +66,10 @@ The graph below illustrates the relationship between selected singer and final m
 
 ### Email Delivery with ZIP Attachment
 
-![WhatsApp Image 2026-02-13 at 15 48 34](https://github.com/user-attachments/assets/76c33b70-0f40-4293-b692-e64fc6bd3101)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/76c33b70-0f40-4293-b692-e64fc6bd3101" width="500">
+</p>
+
 
 
 ---
