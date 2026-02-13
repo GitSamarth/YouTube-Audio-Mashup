@@ -3,27 +3,43 @@ Python-based YouTube mashup generator that downloads videos, extracts audio clip
 
 ## System Architecture
 
-[ User Input ]
-│
-▼
-[ Flask Web Application ]
-│
-▼
-[ Python CLI Script (102303717.py) ]
-│
-▼
-[ yt-dlp ]
-(Video Download)
-│
-▼
-[ FFmpeg ]
-(Audio Extraction + Trimming + Merging)
-│
-▼
-[ ZIP Creation ]
-│
-▼
-[ Email Delivery (SMTP) ]
-│
-▼
-[ User Receives Mashup.zip ]
++--------------------+
+| User Input |
++--------------------+
+|
+v
++--------------------+
+| Flask Web App |
++--------------------+
+|
+v
++------------------------------+
+| Python CLI Script (102303717.py) |
++------------------------------+
+|
+v
++--------------------+
+| yt-dlp |
+| (Video Download) |
++--------------------+
+|
+v
++-----------------------------+
+| FFmpeg |
+| Audio Extract • Trim • Merge |
++-----------------------------+
+|
+v
++--------------------+
+| ZIP Creation |
++--------------------+
+|
+v
++--------------------+
+| Email via SMTP |
++--------------------+
+|
+v
++--------------------+
+| User Receives ZIP |
++--------------------+
