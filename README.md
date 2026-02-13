@@ -54,6 +54,22 @@ The graph below illustrates the relationship between selected singer and final m
 
 ---
 
+
+## Screenshots
+
+### Web Application Interface
+
+![WhatsApp Image 2026-02-13 at 14 41 44](https://github.com/user-attachments/assets/81353f27-be69-4b29-8b56-6346a5faf8ef)
+
+
+---
+
+### Email Delivery with ZIP Attachment
+
+![WhatsApp Image 2026-02-13 at 15 48 34](https://github.com/user-attachments/assets/76c33b70-0f40-4293-b692-e64fc6bd3101)
+
+
+---
 ## Conclusion
 
 The implemented system successfully automates multimedia retrieval, audio processing, and email delivery within a unified workflow.  
